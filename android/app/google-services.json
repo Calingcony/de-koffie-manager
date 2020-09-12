@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "744061220810",
+    "firebase_url": "https://de-koffie-manager.firebaseio.com",
+    "project_id": "de-koffie-manager",
+    "storage_bucket": "de-koffie-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744061220810:android:2164450fbcbb736dc10133",
+        "android_client_info": {
+          "package_name": "nl.merlijnvanlent.de_koffie_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744061220810-qmp3sbgmced3uu2ihb1oph2ijf9sp9i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfvkzxK3vodV2YCQveGAmc9vSaLEbI5i0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744061220810-qmp3sbgmced3uu2ihb1oph2ijf9sp9i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
