@@ -1,4 +1,5 @@
 import 'package:de_koffie_manager/models/simple_user.dart';
+import 'package:de_koffie_manager/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {
@@ -33,6 +34,9 @@ class AuthService {
       UserCredential result = await _auth.createUserWithEmailAndPassword(
           email: email, password: password);
       User user = result.user;
+
+      await DatabaseService(uid: user.uid)
+          .updateUserData('0', 'New crew member', 100);
 
       return _userFromFirebaseUser(user);
     } catch (e) {
